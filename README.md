@@ -1,5 +1,12 @@
-# Public Research Module Report
+# Public Research Module 1 Report
 
+## Authors:
+
+- Patricia Honorato Moreira – Student (Inteli)
+- Jefferson Silva – Co-supervisor (Inteli)
+- Luciana Rodrigues Carvalho Barros – Supervisor (Fundação Faculdade de Medicina)
+- Roger Chammas – Co-supervisor (Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo - HCFMUSP)
+  
 # 1. Research Area
 
 This project is situated within the field of clinical predictive modeling in oncology. In this module, our work focused on integrating diverse clinical and laboratory datasets, advanced data transformation, and the implementation and evaluation of several machine learning and deep learning models. The ultimate goal is to develop tools that can eventually support clinical decision-making, while ensuring that all sensitive data and specific outcomes are kept confidential.
@@ -7,15 +14,6 @@ This project is situated within the field of clinical predictive modeling in onc
 # 2. Overview of Sprints
 
 ## Sprint 1: Data Integration and Research Documentation
-
-### Participants:
-
-- Patricia Honorato Moreira – Student (Inteli)
-- Jefferson Silva – Co-supervisor (Inteli)
-
-- Luciana Rodrigues Carvalho Barros – Supervisor (Fundação Faculdade de Medicina)
-
-- Roger Chammas – Co-supervisor (Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo - HCFMUSP)
 
 ### Focus:
 
@@ -94,6 +92,8 @@ T- raditional Models (Non-Oversampled): Implemented individual models such as Ra
 
 # 3. Conclusions
 
+*The detailed evaluation metric tables originally produced for this module have been withheld in this public report. Instead, a narrative summary is provided below.*
+
 ## Non-Oversampled Models:
 The individual traditional models (Random Forest, XGBoost, and SVM) showed strong performance in overall accuracy and precision but demonstrated lower recall levels, indicating potential challenges in identifying all positive cases.
 
@@ -106,16 +106,34 @@ The deep learning model provided competitive performance with similar overall di
 In summary, the research indicates that careful attention must be paid to the balance between false negatives and false positives. The chosen modeling strategy will depend on the operational priorities of the clinical setting, with current efforts emphasizing the importance of improving recall when the cost of missed positive cases is high.
 
 
-# 4. Next Steps
-In the upcoming phase, I will focus on drafting a scientific article for publication. The article will describe:
+# 4. Conclusions
+The modeling work in this module has demonstrated several important insights:
 
-- **Data Integration & Transformation:** An overview of how diverse datasets were merged and prepared, with all sensitive details anonymized.
+## Modeling Approaches:
+The experiments with traditional machine learning models and deep learning techniques underscore both the strengths and limitations inherent in each approach.
 
-- **Modeling Pipeline:** A comprehensive explanation of the modeling approaches including our experiments with oversampling techniques and stacking ensembles.
+## Trade-Offs Observed:
+The non-oversampled models yielded higher precision and accuracy; however, they experienced lower recall, which could result in missing some high-risk cases. Conversely, the stacking ensemble with SMOTE improved recall at the expense of a slight reduction in overall accuracy and precision.
+These trade-offs are critical in clinical predictive modeling, where the cost of false negatives and false positives must be carefully balanced.
 
-- **Comparative Analysis:** A discussion of the observed trade-offs among various models, with a focus on how each approach addresses the balance between sensitivity and specificity.
+## Future Directions:
+Based on these findings, further work will focus on additional hyperparameter tuning, the exploration of alternative model architectures, and potentially integrating additional clinically relevant features to improve performance.
 
-- **Future Work:** Plans for further hyperparameter tuning, exploration of alternative model architectures, and integration of additional clinically relevant variables.
+# 5. Next Steps
 
-This report forms the basis of our work over multiple sprints and will serve as the foundation for the forthcoming publication article.
+Moving forward, the next phase will concentrate on preparing a scientific article for publication. The article will include:
+
+- A detailed methodology of data integration and transformation.
+
+- An in-depth explanation of our modeling approaches, including the evaluation of strategies with and without oversampling.
+
+- A critical discussion of the observed trade-offs between sensitivity and specificity.
+
+- Future plans for enhanced model tuning and the incorporation of additional clinical variables.
+
+This report represents the cumulative progress achieved across multiple sprints and serves as a foundation for the forthcoming publication.
+
+*This public report summarizes our work within the field of clinical predictive modeling in oncology, while ensuring that all sensitive data and internal details remain confidential.*
+
+
 
