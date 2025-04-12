@@ -75,7 +75,7 @@ This project is situated within the field of clinical predictive modeling in onc
 ## Sprint 5: Comprehensive Modeling and Evaluation
 ### Modeling Approaches:
 
-T- raditional Models (Non-Oversampled): Implemented individual models such as Random Forest, XGBoost, and SVM.
+- T- raditional Models (Non-Oversampled): Implemented individual models such as Random Forest, XGBoost, and SVM.
 
 - Stacking Ensemble: Developed a stacking classifier that combined Random Forest and XGBoost as base models with Logistic Regression (in a pipeline with StandardScaler) as the final estimator.
 
