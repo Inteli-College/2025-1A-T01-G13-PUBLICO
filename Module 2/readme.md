@@ -102,7 +102,7 @@ This project focuses on developing interpretable and clinically applicable machi
 ## Next Steps
 
 - Finalize the complete article manuscript for peer-reviewed journal submission.
-- Develop and evaluate prognostic models for specific tumor subtypes (Luminal, HER2+, Triple Negative).
+- Develop and evaluate prognostic models for specific tumor subtypes.
 - Perform additional exploratory analyses (PCA, UMAP) to characterize data structure if needed for publication.
 - Enhance reproducibility, technical documentation, and figure quality to meet publication standards.
 
