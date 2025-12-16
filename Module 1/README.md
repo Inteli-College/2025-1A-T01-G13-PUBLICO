@@ -3,7 +3,6 @@
 ## Authors:
 
 - Patricia Honorato Moreira – Student (Inteli)
-- Jefferson Silva – Co-supervisor (Inteli)
 - Luciana Rodrigues Carvalho Barros – Supervisor (Fundação Faculdade de Medicina)
 - Roger Chammas – Co-supervisor (Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo - HCFMUSP)
   
